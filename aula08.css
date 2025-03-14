@@ -1,4 +1,85 @@
 header {
-    padding: 20px;
-    background-color: ;
+    padding: 20px; /**responsavel pelo peenchimento interno/tamanho**/
+    background-color: #f8240f;
+    color: rgb(255, 255, 255);
+    display: flex; /*tornando os itens lado a lado*/
+    justify-content: center;
+    gap: 50px;/*espaco entre os elementos*/
+    align-items: center; /*alinhamento vertical dos itens */
+
+}
+header i {
+    font-size: 60px;
+}
+.listas ul {
+    display: flex;/*tornando as li flex*/
+    justify-content: center;/*ddeixando alas centralizadas */
+    gap: 20px;/*deixando espacos entre elas*/
+}
+.listas ul li {
+    list-style: none;
+}
+.listas ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.sessao01 {
+    background-image: url(imagens/beautiful-home-2826052_1280.jpg);
+    padding: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.sessao01 button {
+    padding: 10px;
+    width: 150px;
+    background-color: #ffefb9;
+    border-radius: 20px;
+}
+.sessao02 {
+    padding: 150px;
+    background-color: #fa573a;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.sessao02 div {
+    width: 350px;
+    height: 300px;
+    background-color: #ffefb9;
+}
+.sessao03 {
+    padding: 200px;
+    background-color: #fc8964;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+}
+.sessao03 div img {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+.sessao03 div p {
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+}
+.sessao03 span {
+    color: #f8240f;
+    font-size: 40px;
+    font-weight: 600;
+}
+.sessao04 {
+    padding: 160px;
+    background-color: #fdbc8f;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+}
+.sessao04 iframe {
+    border-radius: 15px;
 }
