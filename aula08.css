@@ -39,7 +39,7 @@ header i {
 .sessao01 button {
     padding: 10px;
     width: 150px;
-    background-color: #ffefb9;
+    background-color: #c73427;
     border-radius: 20px;
     border-radius: 10px;
 }
@@ -53,12 +53,24 @@ header i {
 .sessao02 div {
     width: 350px;
     height: 300px;
-    background-color: #ffffff;
+    background-color: #d84f10;
 }
 .sessao02 div p {
     font-size: 25px;
     color: black;
     
+}
+.caixa1 {
+    background-image: url(imagens/home-1680800_1280.jpg);
+    background-size: cover;
+}
+.caixa2 {
+    background-image: url(imagens/furniture-998265_1280.jpg);
+    background-size: cover;
+}
+.caixa3 {
+    background-image: url(imagens/living-room-1835923_1280.jpg);
+    background-size: cover;
 }
 .sessao03 {
     padding: 200px;
