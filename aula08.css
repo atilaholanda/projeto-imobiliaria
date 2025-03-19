@@ -127,3 +127,11 @@ footer i {
    color: rgb(0, 0, 0);
    font-size: 25px;
 }
+* { /*seletor universal sempre usar*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;/*scroll suave nas transicoes da listas */
+    /*font-family: ;*/
+    
+}
