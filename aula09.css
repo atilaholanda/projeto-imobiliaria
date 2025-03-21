@@ -1,0 +1,91 @@
+header {
+    padding: 25px;
+    /**responsavel pelo peenchimento interno/tamanho**/
+    background-color: #1f38ff;
+    color: rgb(255, 255, 255);
+    display: flex;
+    /*tornando os itens lado a lado*/
+    justify-content: center;
+    gap: 50px;
+    /*espaco entre os elementos*/
+    align-items: center;
+    /*alinhamento vertical dos itens */
+
+}
+
+header i {
+    font-size: 60px;
+}
+
+.listas ul {
+    display: flex;
+    /*tornando as li flex*/
+    justify-content: center;
+    /*ddeixando alas centralizadas */
+    gap: 20px;
+    /*deixando espacos entre elas*/
+}
+
+.listas ul li {
+    list-style: none;
+}
+
+.listas ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.sessao01 {
+    padding: 150px;
+    background-color: #172aec ;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.sessao01 i {
+    font-size: 20px;
+    
+}
+
+.sessao01 div {
+    width: 350px;
+    height: 600px;
+    background-color: #172aec;
+    border-radius: 10px;
+}
+
+.sessao01 div p { 
+    color: aliceblue;
+    font-size: 20px;
+}
+.sessao01 div h3 {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+
+
+
+.caixa1 img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.caixa2 img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.caixa3 img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.sessao01 span {
+    color: #fffb00;
+    font-size: 30px;
+    font-weight: 400;
+}
