@@ -16,6 +16,10 @@ header {
 header i {
     font-size: 60px;
 }
+header ul li {
+    color: rgb(0, 204, 255);
+    
+}
 
 .listas ul {
     display: flex;
@@ -104,7 +108,7 @@ header i {
     background-color: #5aa986;
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 30px;
 }
 .sessao02 div {
     width: 380px;
@@ -120,10 +124,16 @@ header i {
 .sessao02 p {
        color: aliceblue;
     font-size: 20px;
-    display: contents;
+   display: contents;
     justify-content: center;
 
 }
+.sessao02  :hover {
+    box-shadow: 20px 20px 30px black;
+    transition: 0.8s;
+}
+
+
 
 
 
