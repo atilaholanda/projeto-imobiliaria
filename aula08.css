@@ -11,10 +11,18 @@ header {
 header i {
     font-size: 60px;
 }
+.fa-user {
+    font-size: 25px;
+    color: aliceblue;
+}
 .listas ul {
     display: flex;/*tornando as li flex*/
     justify-content: center;/*ddeixando alas centralizadas */
     gap: 20px;/*deixando espacos entre elas*/
+}
+.listas ul li :hover{
+    color: black;
+    transition: 0.8s;
 }
 .listas ul li {
     list-style: none;
@@ -43,6 +51,11 @@ header i {
     border-radius: 20px;
     border-radius: 10px;
 }
+.sessao01 button:hover {
+    background-color: #ffee00;
+    color: black;
+    transition: 0.8s;
+} 
 .sessao02 {
     padding: 150px;
     background-color: #fa573a;
@@ -133,5 +146,9 @@ footer i {
     list-style: none;
     scroll-behavior: smooth;/*scroll suave nas transicoes da listas */
     /*font-family: ;*/
-    
+
+}
+.sessao04 iframe:hover{
+    box-shadow: 20px 20px 30px black;
+    transition: 0.8s;
 }

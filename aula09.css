@@ -1,7 +1,7 @@
 header {
     padding: 25px;
     /**responsavel pelo peenchimento interno/tamanho**/
-    background-color: #059c53;
+    background-color: #0099ffd0;
     color: rgb(255, 255, 255);
     display: flex;
     /*tornando os itens lado a lado*/
@@ -17,7 +17,7 @@ header i {
     font-size: 60px;
 }
 header ul li {
-    color: rgb(0, 204, 255);
+    color: rgb(255, 255, 255);
     
 }
 
@@ -33,7 +33,10 @@ header ul li {
 .listas ul li {
     list-style: none;
 }
-
+.listas ul li :hover {
+transition: 0,08s;
+color: black;
+}
 .listas ul li a {
     text-decoration: none;
     color: aliceblue;
@@ -41,7 +44,7 @@ header ul li {
 
 .sessao01 {
     padding: 150px;
-    background-color: #7adbb0 ;
+    background-color:  #01a0fc ;
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
@@ -58,7 +61,7 @@ header ul li {
 .sessao01 div {
     width: 380px;
     height: 600px;
-    background-color: #048049;
+    background-color: #01a0fc;
     border-radius: 10px;
 }
 
@@ -105,7 +108,7 @@ header ul li {
 
 .sessao02 {
     padding: 150px;
-    background-color: #5aa986;
+    background-color: #01a0fc;
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
@@ -113,7 +116,7 @@ header ul li {
 .sessao02 div {
     width: 380px;
     height: 600px;
-    background-color: #9cd4bb;
+    background-color: #01a0fc;
     border-radius: 10px;
 }
 .sessao02 img {
@@ -122,18 +125,151 @@ header ul li {
     border-radius: 10px;
 }
 .sessao02 p {
-       color: aliceblue;
-    font-size: 20px;
-   display: contents;
-    justify-content: center;
+     color: aliceblue;
+     font-size: 20px;
+     display: contents;
+     justify-content: center;
 
 }
-.sessao02  :hover {
+.sessao02 div:hover {
     box-shadow: 20px 20px 30px black;
     transition: 0.8s;
 }
 
+.contatos-00{
+    background-color:  #01a0fc;
+    padding: 60px;
+    color: white;
+    
+}
 
+.contatos-01{
+    background-color:  #01a0fc;
+    padding: 15px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+.contatos-02 {
+    background-color:#01a0fc;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+.contatos-02 ul {
+    justify-content: start;
+    gap: 10px;
+    display: flex;
+    align-items: start;
+    padding: 8px;
+    list-style: none;
+    
+}
+
+.contatos-03 {
+    background-color: #01a0fc;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+.contatos-03 ul {
+    justify-content: start;
+    gap: 10px;
+    display: flex;
+    align-items: start;
+    padding: 8px;
+    list-style: none;
+}
+
+.contatos-04 {
+    background-color: #01a0fc;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+.contatos-04 ul {
+    justify-content: start;
+    gap: 10px;
+    display: flex;
+    align-items: start;
+    padding: 8px;
+    list-style: none;
+}
+
+.contatos-05 {
+    background-color: #01a0fc;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+.contatos-05 ul {
+    justify-content: start;
+    gap: 10px;
+    display: flex;
+    align-items: start;
+    padding: 8px;
+    list-style: none;
+}
+
+.contatos-06 {
+    background-color: #01a0fc;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+.contatos-06 ul {
+    background-color: #01a0fc;
+    padding: 10px;
+}
+
+.contatos-06 ul {
+    justify-content: start;
+    gap: 10px;
+    display: flex;
+    align-items: start;
+    padding: 8px;
+    list-style: none;
+}
+
+.contatos-07{
+    background-color:  #01a0fc;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+.contatos-07 ul{
+    justify-content: start;
+    gap: 8px;
+    display: flex;
+    align-items: start;
+    padding: 3px;
+    list-style: none;
+}
+
+
+.contatos-08 {
+    background-color: #01a0fc;
+    padding: 5px;
+    color: white;
+    font-weight: 900;
+}
+
+.contatos-08 ul {
+    justify-content: start;
+    gap: 10px;
+    display: flex;
+    align-items: start;
+    padding: 8px;
+    list-style: none;
+}
 
 
 
@@ -143,7 +279,7 @@ header ul li {
 
 /*footer*/
 footer {
-    background-color: rgba(0, 224, 150, 0.815);
+    background-color: #01a0fc;
     padding: 30px;
 
     color: rgb(255, 255, 255);
@@ -151,7 +287,7 @@ footer {
     line-height: 30px;
 }
 footer p {
-    font-size: 26px;
+    font-size: 30px;
 }
 footer i {
    color: rgb(255, 255, 255);
