@@ -13,10 +13,10 @@ body {
 .div-form {
     background-color: #a6dd1b;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 10px 10px 20px rgb(0, 0, 0);
     width: 350px;
-    height: 350px;
+    height: 500px;
 }
 form {
     display: flex;
@@ -27,6 +27,17 @@ label {
     font-weight: bold;
 }
 .dombosco {
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 3px solid #fbff00;
 }
+.btn-form{
+    background-color: #d4f462; /**/
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
