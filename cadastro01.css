@@ -16,7 +16,7 @@ body {
     border-radius: 15px;
     box-shadow: 10px 10px 20px rgb(0, 0, 0);
     width: 350px;
-    height: 500px;
+    height: 550px;
 }
 form {
     display: flex;
@@ -33,11 +33,25 @@ label {
     border-radius: 8px;
     border: 3px solid #fbff00;
 }
-.btn-form{
+.btn-form {
     background-color: #d4f462; /**/
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 10px;
     border: none;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.btn-form:hover {
+    background-color: #000000;
+    transition: 0.8s;
+
+}
+h2, p {
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #000000;
+}
