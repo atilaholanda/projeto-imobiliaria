@@ -1,7 +1,7 @@
 header {
     padding: 25px;
     /**responsavel pelo peenchimento interno/tamanho**/
-    background-color: #0099ffd0;
+    background-color: #01a3eb;
     color: rgb(255, 255, 255);
     display: flex;
     /*tornando os itens lado a lado*/
@@ -44,7 +44,7 @@ color: black;
 
 .sessao01 {
     padding: 150px;
-    background-color:  #01a0fc ;
+    background-color: #0192d8;
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
@@ -61,7 +61,7 @@ color: black;
 .sessao01 div {
     width: 380px;
     height: 600px;
-    background-color: #01a0fc;
+    background-color: #0181c6;
     border-radius: 10px;
 }
 
@@ -98,7 +98,7 @@ color: black;
     border-radius: 10px;
 }
 .sessao01 span {
-    color: #fffb00;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 400;
 }
@@ -108,7 +108,7 @@ color: black;
 
 .sessao02 {
     padding: 150px;
-    background-color: #01a0fc;
+    background-color: #0070b3;
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
@@ -116,7 +116,7 @@ color: black;
 .sessao02 div {
     width: 380px;
     height: 600px;
-    background-color: #01a0fc;
+    background-color: #0070b3;
     border-radius: 10px;
 }
 .sessao02 img {
@@ -137,14 +137,15 @@ color: black;
 }
 
 .contatos-00{
-    background-color:  #01a0fc;
+    background-color:  #0070b3
+    ;
     padding: 60px;
     color: white;
     
 }
 
 .contatos-01{
-    background-color:  #01a0fc;
+    background-color:  #0070b3;
     padding: 15px;
     font-weight: 900;
     color: white;
@@ -153,7 +154,7 @@ color: black;
 
 
 .contatos-02 {
-    background-color:#01a0fc;
+    background-color:#0070b3;
     padding: 10px;
     color: white;
     font-weight: 900;
@@ -170,7 +171,7 @@ color: black;
 }
 
 .contatos-03 {
-    background-color: #01a0fc;
+    background-color: #0070b3;
     padding: 10px;
     color: white;
     font-weight: 900;
@@ -186,7 +187,7 @@ color: black;
 }
 
 .contatos-04 {
-    background-color: #01a0fc;
+    background-color: #0070b3;
     padding: 10px;
     color: white;
     font-weight: 900;
@@ -202,7 +203,7 @@ color: black;
 }
 
 .contatos-05 {
-    background-color: #01a0fc;
+    background-color: #0070b3;
     padding: 10px;
     color: white;
     font-weight: 900;
@@ -218,14 +219,14 @@ color: black;
 }
 
 .contatos-06 {
-    background-color: #01a0fc;
+    background-color: #0070b3;
     padding: 10px;
     color: white;
     font-weight: 900;
 }
 
 .contatos-06 ul {
-    background-color: #01a0fc;
+    background-color: #0070b3;
     padding: 10px;
 }
 
@@ -239,7 +240,7 @@ color: black;
 }
 
 .contatos-07{
-    background-color:  #01a0fc;
+    background-color: #0070b3;
     padding: 10px;
     color: white;
     font-weight: 900;
@@ -256,7 +257,7 @@ color: black;
 
 
 .contatos-08 {
-    background-color: #01a0fc;
+    background-color: #0070b3;
     padding: 5px;
     color: white;
     font-weight: 900;
@@ -279,7 +280,7 @@ color: black;
 
 /*footer*/
 footer {
-    background-color: #01a0fc;
+    background-color: #005fa0;
     padding: 30px;
 
     color: rgb(255, 255, 255);
