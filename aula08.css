@@ -6,7 +6,6 @@
     /*font-family: ;*/ 
 
 }
-
 header {
     padding: 20px; /**responsavel pelo peenchimento interno/tamanho**/
     background-color: #01a3eb;
@@ -15,8 +14,8 @@ header {
     justify-content: center;
     gap: 50px;/*espaco entre os elementos*/
     align-items: center; /*alinhamento vertical dos itens */
-
 }
+
 header i {
     font-size: 60px;
 }
